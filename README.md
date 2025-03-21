@@ -57,6 +57,19 @@ Then Click on the "Connect / Login" button.
 
 If you see no errors in the console it works for you.
 
+The console looks like this:
+
+```
+addressCalledDirect: 0x1dC917DC5826C6dfdbb1cf7De8F60DF03ceD6a83
+
+signer: JsonRpcSigner {provider: BrowserProvider, address: ‘0x1dC917DC5826C6dfdbb1cf7De8F60DF03ceD6a83’}
+
+Page.tsx:21 provider: BrowserProvider {}
+
+addresss 0x1dC917DC5826C6dfdbb1cf7De8F60DF03ceD6a83
+
+signature 0x5618047faa602e8d80346a4b9f24b2e313790b04347cd2fc8c0dd0b03f4ef00746f13126a78653591c4b94862e4852804b02ba92405e547bc5f6bf6aa40fc5b31b
+```
 
 ## How was this project created:
 
