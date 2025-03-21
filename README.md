@@ -40,8 +40,6 @@ npm install -g pnpm
 4. Run `pnpm install` to install dependencies
 5. Run `pnpm run dev` to start the development server
 
-Note that you can leave the VITE_PROJECT_ID blank if you are only in dev mode.
-
 ## Dev Instructions for running utu-app
 
 Run pnpm instead of npm for better performance.  However you can still use the equivalent npm command:
@@ -71,31 +69,30 @@ npx @reown/appkit-cli
 The above command will prompt you for project details and print the following to the console.
 
 ```
-✔ Enter your project name:  utu-app
+✔ Enter your project name:  appkit_google
 ✔ Which framework will be used ? React
 ✔ wagmi, ethers, solana or EVM+Solana ? wagmi
 
 Downloading the repository ...
 
-cd utu-app
+cd appkit_google
 npm install
 npm run dev
         
-Your Project Id can be blank when working in dev.  However to deploy elsewhere you need a Project Id.
 
 Go to: https://cloud.reown.com
 To create a personal ProjectId
 ```
 
-I created utu-app on Gitlab web interface:
+I created appkit_google on Github web interface:
 
-https://gitlab.com/ututrust/utu-app#
+https://github.com/spotadev/appkit_google
 
 Then to initialize git:
 
 ```
 git init --initial-branch=main
-git remote add origin https://gitlab.com/ututrust/utu-app.git
+git remote add origin https://github.com/spotadev/appkit_google.git
 git add .
 git commit -m "Initial commit"
 git push --set-upstream origin main
@@ -104,5 +101,5 @@ git push --set-upstream origin main
 To change the remote:
 
 ```
-git remote set-url origin https://gitlab.com/ututrust/utu-app-upgrade.git
+git remote set-url origin https://github.com/spotadev/appkit_google.git
 ```
