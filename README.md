@@ -62,7 +62,7 @@ nvm install v18.16.0
 
 ## Dev Instructions for running appkit_google
 
-Run pnpm instead of npm for better performance.  However you can still use the equivalent npm command:
+Run this:
 
 ```
 pnpm install
