@@ -60,7 +60,7 @@ nvm install v18.16.0
 4. Run `pnpm install` to install dependencies
 5. Run `pnpm run dev` to start the development server
 
-## Dev Instructions for running utu-app
+## Dev Instructions for running appkit_google
 
 Run pnpm instead of npm for better performance.  However you can still use the equivalent npm command:
 
@@ -75,9 +75,11 @@ In chrome, inspect so you can see the console.
 
 Then Click on the "Connect / Login" button.
 
+**Choose the Google Login option.**
+
 If you see no errors in the console it works for you.
 
-The console looks like this:
+The console looks like this without errors:
 
 ```
 addressCalledDirect: 0x1dC917DC5826C6dfdbb1cf7De8F60DF03ceD6a83
