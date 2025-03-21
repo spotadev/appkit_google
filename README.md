@@ -32,6 +32,26 @@ This project uses pnpm instead of npm. Install it:
 npm install -g pnpm
 ```
 
+## Use node v18.16.0
+
+If are you using nvm to choose the version, you can check your version:
+
+```
+nvm list
+```
+
+If you have it in the list but it is not chosesn, type:
+
+```
+nvm use 18.16.0
+```
+
+If it is not in the list type this to install it and choose it:
+
+```
+nvm install v18.16.0
+```
+
 ## Instructions for setting up your .env file
 
 1. Go to [Reown Cloud](https://cloud.reown.com) and create a new project.
