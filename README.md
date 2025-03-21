@@ -1,4 +1,4 @@
-# UTU APP
+# appkit_google
 
 ## Abstract
 
