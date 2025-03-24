@@ -49,8 +49,9 @@ createAppKit({
   adapters: [wagmiAdapter],
   ...generalConfig,
   features: {
-    analytics: true // Optional - defaults to your Cloud configuration
-  }
+    analytics: true,
+  },
+  defaultAccountTypes: {eip155: 'eoa'} // This is to avoid the Smart Account
 })
 
 createRoot(document.getElementById('root')!).render(

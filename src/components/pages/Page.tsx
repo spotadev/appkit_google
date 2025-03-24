@@ -9,13 +9,13 @@ export const Page = () => {
 
 
   const signSomething = useCallback(async (walletProvider: Eip1193Provider) => {
-    if ( address ) {
+    if ( address && walletProvider ) {
       // const provider = new BrowserProvider(walletProvider);
       // const signer = new JsonRpcSigner(provider, address);
       // const signature = await signer.signMessage("Sign in at UTU");
 
-      const addressCalledDirect = await walletProvider.request({ method: "eth_accounts" });
-      console.log(`addressCalledDirect: ${addressCalledDirect}`);
+      // const addressCalledDirect = await walletProvider.request({ method: "eth_accounts" });
+      // console.log(`addressCalledDirect: ${addressCalledDirect}`);
 
       const provider = new BrowserProvider(walletProvider as Eip1193Provider) 
       console.log('provider:', provider);
@@ -28,6 +28,7 @@ export const Page = () => {
 
       const signature = await signer.signMessage("Sign This");
       console.log('signature', signature);
+      
     }
   }, [address]);
 
